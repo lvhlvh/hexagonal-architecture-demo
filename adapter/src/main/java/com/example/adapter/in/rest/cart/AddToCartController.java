@@ -1,5 +1,7 @@
 package com.example.adapter.in.rest.cart;
 
+import static com.example.adapter.in.rest.common.ControllerCommons.clientErrorException;
+
 import com.example.application.port.in.cart.AddToCartCommand;
 import com.example.application.port.in.cart.AddToCartUseCase;
 import com.example.application.port.in.cart.ProductNotFoundException;
@@ -11,8 +13,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
-import static com.example.adapter.in.rest.common.ControllerCommons.clientErrorException;
 
 @Slf4j
 @RestController

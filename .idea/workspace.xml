@@ -4,71 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3513f9bc-13cb-49bd-82ab-76651a0f4a2d" name="Changes" comment="chore(git): add .gitignore">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart/AddToCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart/CartLineItemWebModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart/CartWebModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common/ClientErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common/ControllerCommons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common/ErrorEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/product/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rpc/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rest/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rpc/cart/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rpc/product/.keep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/AddToCartCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/AddToCartUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/EmptyCartUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/GetCartUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/product/FindProductsUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/out/cart/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/out/product/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/cart/AddToCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/cart/EmptyCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/cart/GetCartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/product/FindProductsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/groovy/com/example/application/service/cart/AddToCartServiceSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/groovy/com/example/application/service/cart/EmptyCartServiceSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/src/test/groovy/com/example/application/service/product/FindProductsServiceSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/StartApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/DependencyRuleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/InheritanceRuleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/MethodRuleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/NamingConventionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/VisibilityRuleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/ArchUnitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/ArchUnitUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/condition/HasOnlyOneMethodCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/condition/ImplementOnlyOneInterfaceCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/cart/CartLineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/cart/NotEnoughItemsInStockException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/customer/CustomerId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/money/Money.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/product/ProductId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iface/src/main/java/com/example/iface/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iface/src/main/java/com/example/iface/cart/QueryCartRpcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3513f9bc-13cb-49bd-82ab-76651a0f4a2d" name="Changes" comment="feat: first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,7 +204,7 @@
       <updated>1714988458599</updated>
       <workItem from="1714988459674" duration="58000" />
       <workItem from="1714988522320" duration="2510000" />
-      <workItem from="1714997320568" duration="6076000" />
+      <workItem from="1714997320568" duration="6498000" />
     </task>
     <task id="LOCAL-00001" summary="chore(git): add .gitignore">
       <option name="closed" value="true" />
@@ -278,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714988558891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: first commit">
+      <option name="closed" value="true" />
+      <created>1715003547962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715003547962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +241,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(git): add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore(git): add .gitignore" />
+    <MESSAGE value="feat: first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: first commit" />
   </component>
 </project>

@@ -21,6 +21,11 @@
         <!--内部依赖-->
         <dependency>
             <groupId>com.example</groupId>
+            <artifactId>iface</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.example</groupId>
             <artifactId>common</artifactId>
             <version>${project.version}</version>
         </dependency>
