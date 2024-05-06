@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3513f9bc-13cb-49bd-82ab-76651a0f4a2d" name="Changes" comment="chore(git): add .gitignore">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart/AddToCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart/CartLineItemWebModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart/CartWebModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common/ClientErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common/ControllerCommons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common/ErrorEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/product/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rpc/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rest/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rpc/cart/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rpc/product/.keep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/AddToCartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/AddToCartUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/EmptyCartUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/GetCartUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/cart/ProductNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/in/product/FindProductsUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/out/cart/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/port/out/product/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/cart/AddToCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/cart/EmptyCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/cart/GetCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/main/java/com/example/application/service/product/FindProductsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/groovy/com/example/application/service/cart/AddToCartServiceSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/groovy/com/example/application/service/cart/EmptyCartServiceSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/src/test/groovy/com/example/application/service/product/FindProductsServiceSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/main/java/com/example/bootstrap/StartApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/DependencyRuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/InheritanceRuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/MethodRuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/NamingConventionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/VisibilityRuleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/ArchUnitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/ArchUnitUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/condition/HasOnlyOneMethodCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootstrap/src/test/java/com/example/bootstrap/archunit/common/condition/ImplementOnlyOneInterfaceCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/Validation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/cart/CartLineItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/cart/NotEnoughItemsInStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/customer/CustomerId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/money/Money.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/example/domain/product/ProductId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iface/src/main/java/com/example/iface/cart/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iface/src/main/java/com/example/iface/cart/QueryCartRpcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lvhlvh&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lvhlvh/hexagonal-architecture-demo.git&quot;,
+    &quot;accountId&quot;: &quot;1e7e4fc3-d354-4ac4-9d65-012b82283be1&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2g5XYPdCywmkjxiF1iXXUm4O0Ms" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AddToCartServiceSpec.executor": "Run",
+    "JUnit.AddToCartServiceSpec.testAddToCart.executor": "Run",
+    "JUnit.AddToCartServiceTest.test.executor": "Run",
+    "JUnit.DependencyRuleTest.executor": "Run",
+    "JUnit.EmptyCartServiceSpec.executor": "Run",
+    "JUnit.InheritanceRuleTest.executor": "Run",
+    "JUnit.NamingConventionTest.executor": "Run",
+    "JUnit.VisibilityRuleTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.StartApp.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "Spock",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock": "spock.lang.Specification",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/lvhao/Projects/hexagonal-architecture-demo/application/src/test/groovy/com/example/application/service/cart",
+    "last_opened_file_path": "/Users/lvhao/Projects/hexagonal-architecture-demo/adapter/src/main/java/com/example/adapter/in/rest/common",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/common" />
+      <recent name="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/in/rest/cart" />
+      <recent name="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rpc/product" />
+      <recent name="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rpc/cart" />
+      <recent name="$PROJECT_DIR$/adapter/src/main/java/com/example/adapter/out/rest" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="spock.lang.Specification" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.application.service.cart" />
+      <recent name="com.example.application.service.product" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.VisibilityRuleTest">
+    <configuration name="DependencyRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootstrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bootstrap.archunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.bootstrap.archunit" />
+      <option name="MAIN_CLASS_NAME" value="com.example.bootstrap.archunit.DependencyRuleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InheritanceRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootstrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bootstrap.archunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.bootstrap.archunit" />
+      <option name="MAIN_CLASS_NAME" value="com.example.bootstrap.archunit.InheritanceRuleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NamingConventionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootstrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bootstrap.archunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.bootstrap.archunit" />
+      <option name="MAIN_CLASS_NAME" value="com.example.bootstrap.archunit.NamingConventionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisibilityRuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bootstrap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bootstrap.archunit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.bootstrap.archunit" />
+      <option name="MAIN_CLASS_NAME" value="com.example.bootstrap.archunit.VisibilityRuleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="bootstrap" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.bootstrap.StartApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.VisibilityRuleTest" />
+        <item itemvalue="JUnit.InheritanceRuleTest" />
+        <item itemvalue="JUnit.NamingConventionTest" />
+        <item itemvalue="JUnit.DependencyRuleTest" />
+        <item itemvalue="Spring Boot.StartApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3513f9bc-13cb-49bd-82ab-76651a0f4a2d" name="Changes" comment="" />
+      <created>1714988458599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714988458599</updated>
+      <workItem from="1714988459674" duration="58000" />
+      <workItem from="1714988522320" duration="2510000" />
+      <workItem from="1714997320568" duration="6076000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore(git): add .gitignore">
+      <option name="closed" value="true" />
+      <created>1714988558891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714988558891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore(git): add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(git): add .gitignore" />
+  </component>
+</project>
